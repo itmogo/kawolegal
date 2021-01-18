@@ -1,0 +1,59 @@
+.container-fluid {
+  background-color: #3b0c0c;
+  margin-bottom: 10px;
+}
+.navright {
+  padding-top: 19px;
+  color: #ff4500;
+  margin-right: 50px;
+}
+ul.navright > li > a {
+  padding-left: 40px;
+}
+.navright > li:hover {
+  border: 2px solid #ff4500;
+  height: 50px;
+}
+
+.container {
+  margin-left: 21%;
+}
+
+input {
+  width: 65%;
+}
+input[type="text"] {
+  padding: 6px 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+}
+input[type="password"] {
+  padding: 6px 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+}
+img {
+  margin-left: 84px;
+}
+.social ul > li > a {
+  color: #5bc0de;
+  float: left;
+  font-size: large;
+  /*padding-left: 50px;*/
+  /* margin-left: 50px;*/
+  padding: 10px 15px;
+}
+.social ul > li {
+  font-size: 20px;
+  list-style: none;
+  margin-left: 190px;
+}
+.social ul > li > a:hover {
+  color: white;
+}
+.mdi {
+  content: "\F544";
+  margin-left: 40px;
+}
